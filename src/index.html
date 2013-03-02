@@ -1,0 +1,55 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+	<title>Conference Management Toolkit</title>
+	<link rel=stylesheet type=text/css href=style.css />
+</head>
+
+<body>
+
+<h1>Conference Management Toolkit</h1>
+<div id=line></div>
+<br>
+
+<center>
+<h3>Welcome to Conference Management Toolkit</h3>
+
+<table class="t1" border=1  cellspacing=0 cellpadding=10 width="100%">
+<tr>
+	<td valign="top">
+	<center>
+	<h3>Sign In</h3>
+		<form method=get action=servlet/LoginManager>
+		<table>
+			<tr><td>Username:</td>    <td><input type="text" name="username" maxlength=100 size=40></td></tr>
+			<tr><td>Password:</td>    <td><input type="password" name="password" maxlength=100 size=40></td></tr>
+		</table>
+
+		<input type=submit name=submitVal value="Sign in">
+		</form>
+	</center>
+	</td>
+	
+	<td valign="top">
+	<center>
+	<h3>New? Register</h3>
+		<form method=get action=servlet/LoginManager>
+		<table>
+			<tr><td>First Name:</td>    <td><input type="text" name="r_first" maxlength=100 size=40></td></tr>
+			<tr><td>Middle Name:<br>* Optional</td>    <td><input type="text" name="r_middle" maxlength=100 size=40></td></tr>
+			<tr><td>Last Name:<br>* Will be your password</td>    
+				<td><input type="text" name="r_last" maxlength=100 size=40></td></tr>
+			<tr><td>Email:<br>* Will be your username<br>* Cannot be changed once set</td>    
+				<td><input type="text" name="r_email" maxlength=100 size=40></td></tr>
+			<tr><td>Affiliation:</td>    <td><input type="text" name="r_affil" maxlength=255 size=40></td></tr>
+		</table>
+		<input type=submit name=submitVal value="Register">	
+		</form>
+	</center>
+	</td>
+
+
+</center>
+</body>
+</html>
+

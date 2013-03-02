@@ -1,0 +1,75 @@
+/**
+light green #e7ffed
+cream #fffbe5
+**/
+
+body
+{
+padding: 5px;
+background-color: #f8f8f7;
+color: #595b62;
+}
+
+a#link
+{
+	color: green;
+	text-decoration: none;
+}
+
+h1
+{
+background-color: #aaffd3;
+text-align: center;
+color: #595b62;
+padding: 0;
+margin: 0;
+}
+
+h3
+{
+padding: 0;
+margin: 0;
+}
+
+
+#line
+{
+height: 2px;
+background-color: #FFE470;
+}
+
+table.t1
+{
+table-layout: fixed;
+}
+
+table.nav-List
+{
+padding: 0;
+margin: 0;
+}
+
+
+table.nav-List td a:link,a:visited
+{
+	padding: 1px;
+	display:block;
+	color: green;
+	width: 75px;
+	height: 30px;
+	text-decoration:none;
+	font-size:small;
+	font-weight:bold;
+	background-color: #f8f8f7;
+}
+table.nav-List td a:hover, a:active
+{
+	background-color: #ebe0d4;
+}
+
+fieldset {
+    border: 0;
+	padding: 0em 0em;
+}
+
+

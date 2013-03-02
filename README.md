@@ -1,0 +1,1 @@
+This is the source code for a project for my database systems class. It is a simplified version of a confrence management toolkit where researchers can submit and review each others papars. Project was done with another partner.
